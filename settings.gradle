@@ -1,0 +1,13 @@
+rootProject.name = 'cgame'
+include 'UserManagementAPI'
+include 'GameSearchAPI'
+include 'Application'
+include 'UserManagementAPI'
+include 'GameSearchAPI'
+include 'commons'
+include 'app'
+include 'GameSearch'
+include 'UserManagement'
+include 'GameSearch'
+include 'UserManagement'
+
