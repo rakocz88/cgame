@@ -2,7 +2,6 @@ bootJar.enabled = true
 jar.enabled = false
 
 dependencies {
-    implementation project(':commons')
     implementation project(':GameSearchAPI')
     implementation project(':GameSearch')
     implementation project(':UserManagementAPI')
