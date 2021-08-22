@@ -2,8 +2,12 @@ bootJar.enabled = true
 jar.enabled = false
 
 dependencies {
+    implementation project(':Shared')
     implementation project(':GameSearchAPI')
     implementation project(':GameSearch')
     implementation project(':UserManagementAPI')
     implementation project(':UserManagement')
+    implementation project(':SkillsAPI')
+    implementation project(':ClassAPI')
+    implementation project(':HeroAPI')
 }
