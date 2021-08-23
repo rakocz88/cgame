@@ -2,9 +2,8 @@ package com.pilaf.cgame.shared.valueobject;
 
 import java.util.UUID;
 
-public class EffectId extends AbstractGenericId {
-
-    public EffectId(UUID id) {
+public class ArmorId extends AbstractGenericId{
+    public ArmorId(UUID id) {
         super(id);
     }
 }

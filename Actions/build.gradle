@@ -1,0 +1,7 @@
+dependencies {
+    implementation project (':Shared')
+    implementation project (':ActionsAPI')
+    implementation project (':CombatAPI')
+    implementation project (':EquipmentAPI')
+    implementation project (':DiceRollModuleAPI')
+}

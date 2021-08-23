@@ -15,7 +15,12 @@ public enum EffectResult
     DICE_LVL_INCREASE(""),
     DICE_LVL_DECREASE(""),
     DICE_AMOUNT_INCREASE(""),
-    DICE_AMOUNT_DECREASE("");
+    DICE_AMOUNT_DECREASE(""),
+    MISSED_ATTACK(""),
+    FAILED_SPELL(""),
+    ACTION_POINTS_DECREASE(""),
+    ACTION_POINTS_INCREASE("desc");
+
 
 
     private String desc;

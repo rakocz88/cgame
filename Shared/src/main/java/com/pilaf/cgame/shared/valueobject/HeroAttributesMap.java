@@ -1,4 +1,4 @@
-package com.pilaf.cgame.api.hero.model;
+package com.pilaf.cgame.shared.valueobject;
 
 import com.pilaf.cgame.shared.interfaces.MutableParameter;
 import com.pilaf.cgame.shared.valueobject.HeroAttribute;
@@ -48,5 +48,9 @@ public class HeroAttributesMap implements MutableParameter {
 
     public Map<HeroAttributeType, Integer> get(){
         return heroAttributeMap;
+    }
+
+    public Integer getAttributeValue(HeroAttributeType heroAttributeType){
+        return heroAttributeMap.get(heroAttributeType);
     }
 }
